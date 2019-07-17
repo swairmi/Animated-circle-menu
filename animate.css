@@ -1,0 +1,456 @@
+/*********************TABLE OF CONTENTS************************/
+/* MAIN CONTAINER */
+/* ANIMATION KEYFRAMES */
+/* MAV POSITIONING */
+/* AUSTRALIA POSITIONING */
+/* PIKE POSITIONING */
+/* ARKON POSITIONING */
+/* HOLLCO POSITIONING */
+/* AGD POSITIONING */
+/* TRAFFIC POSITIONING */
+/* TOP DOT POSITIONING */
+/* MIDDLE SECTION POSITIONING */
+/* INDIVIDUAL WHITE DOTS */
+/* LOGO CLICKER ANCHOR POINTS*/
+/*********************TABLE OF CONTENTS************************/
+
+
+
+
+
+body{ width:100%; margin:0; height: 100%;}
+/**************************************MAIN CONTAINER************************/
+.maincontain{
+	background-color:black;
+
+	width: 100%;
+	height:5000px;
+    display: flex;
+    flex-direction: column;}}
+.thewholething{width:500px; height: 100%; margin:0 auto; overflow: scroll;}
+.main {
+    position: relative;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;}
+#middle_off{position: absolute;left: calc(50% - 140px);
+    top: calc(50% - 55px); height: 50px
+    width: 50px;}
+.circlecenter{left: calc(50% - -110px);
+    top: calc(50% - 55px); height: 50px
+    width: 50px;}
+#theend{padding-top:1500px; margin-top:80px; min-height:0; object-fit:contain; width:100%;}
+
+.thetesterone{height: 2000px;}
+#thescroller{margin-top:500px;}
+
+
+
+
+/**************************************ANIMATION KEYFRAMES************************/
+#makepulse{ background-color:transparent; background-color:grey;}
+
+@keyframes pulsing {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255,255, 255, 0.5);
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.5);}
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(20255, 255, 0);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);}
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(20255, 255, 0);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}}
+
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255,255, 255, 0.5);
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.5);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(20255, 255, 0);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(20255, 255, 0);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      }}
+
+
+@keyframes pulserbig {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(255,255, 255);
+    box-shadow: 0 0 0 0 rgb(255,255,255);}
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(202 55, 255, 0);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);}
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(20255, 255, 0);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}}
+
+
+
+
+
+/**************************************MAV POSITIONING************************/
+.logo1mav{transform: rotate(0deg) translateX(170px); position: absolute;
+    left: calc(50% - -100px); top: calc(50% - 330px); height: 50px;
+    width: 50px; filter: grayscale(100%);}
+.logoone{width:90px; height:90px; border-radius:10%;}
+.circle205 {
+    transform: rotate(315deg) translateX(250px); position: absolute;
+    left: calc(50% - 20px); top: calc(50% - 20px); height: 20px;
+    width: 20px; background-color:#ffc966; border-radius: 50%; z-index:1;}
+.circa205 {
+    transform: rotate(315deg) translateX(250px); position: absolute;
+    left: calc(50% - 20px); top: calc(50% - 20px); height: 20px;
+    width: 20px; background-color:#ffc966; border-radius: 50%; z-index:2;}
+#centralMAV{width: 250px;  height: 150px; opacity: 07; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); left: calc(50% - 170px);position: absolute;
+text-align:center; opacity:0;}
+.logocenterMAV{width: 300px; height: 200px;}
+
+
+/**************************************AGD AUSTRALIA POSITIONING************************/
+.logotwo{width:200px; height: 80px;}
+.logo2agd{transform: rotate(360deg) translateX(250px);
+    position: absolute; left: calc(50% - -50px);top: calc(50% - 50px);
+    height: 30px; width:30px; filter: grayscale(100%);}
+.circa360 {
+    transform: rotate(360deg) translateX(250px);
+    position: absolute; left: calc(50% - 20px);top: calc(50% - 15px);
+    height: 20px; width:20px;background-color:#ffc966;border-radius: 50%; z-index:4;}
+.circa360BB{ transform: rotate(360deg) translateX(250px);
+    position: absolute; left: calc(50% - 20px);top: calc(50% - 15px);
+    height: 20px; width:20px;background-color:#d6caaf;border-radius: 50%; z-index:3;}
+.circa360B{ transform: rotate(360deg) translateX(250px);
+    position: absolute; left: calc(50% - 20px);top: calc(50% - 15px);
+    height: 20px; width:20px;background-color:#FFA500;border-radius: 50%; z-index:2;}
+.circle360 {
+    transform: rotate(360deg) translateX(250px);
+    position: absolute; left: calc(50% - 20px);top: calc(50% - 15px);
+    height: 20px; width:20px;background-color:#ffc966;border-radius: 50%; z-index:1;}
+#centralAGDAUSTRALIA{width: 250px; height:150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); 
+    left: calc(50% - 170px);position: absolute;
+    text-align:center;}
+.logocenterAGDAUSTRALIA{width: 300px; height:200px; }
+
+
+/**************************************PIKE POSITIONING************************/
+.logo3pike{ transform:rotate(0deg) translateX(250px);  position: absolute;
+    left: calc(50% - 20px);top: calc(50% - -180px);height: 30px;
+    width: 20px; filter: grayscale(100%);}
+.logothree{width:170px; height:90px;}
+.circle45 {
+    transform:rotate(45deg) translateX(250px); background-color: orange; position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);height: 20px;
+    width: 20px;background-color:#ffc966;border-radius: 50%; z-index:1;}
+.circa45 {
+    transform:rotate(45deg) translateX(250px); background-color: orange; position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);height: 20px;
+    width: 20px;background-color:#ffc966;border-radius: 50%; z-index:2;}
+#centralPIKE{width: 250px; height: 150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); 
+    left: calc(50% - 170px);position: absolute;
+    text-align:center;}
+.logocenterPIKE{width:300px; height:200px; }
+
+
+/**************************************ARKON POSITIONING************************/
+.logofour{width:200px; height:50px;}
+.logo4arkon{transform: rotate(0deg) translateX(250px); position: absolute;
+    left: calc(50% - 370px);top: calc(50% - -300px);
+    height: 30px; width: 30px; filter: grayscale(100%);}
+.circle90 {
+    transform: rotate(90deg) translateX(250px); position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);
+    height: 20px; width: 20px; background-color:#ffc966; border-radius: 50%; z-index:1;}
+.circa90 {
+    transform: rotate(90deg) translateX(250px); position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);
+    height: 20px; width: 20px; background-color:#ffc966; border-radius: 50%; z-index:2;}
+
+#centralARKON{width: 250px; height: 150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); 
+    left: calc(50% - 170px);position: absolute;
+    text-align:center;}
+.logocenterARKON{width:300px; height:200px; }
+
+
+/**************************************HOLLCO POSITIONING************************/
+.logofive{width:180px; height:80px;}
+.logo5hollco{transform: rotate(0deg) translateX(250px);position: absolute;
+    left: calc(50% - 700px);top: calc(50% - -200px);
+    height: 20px;width: 20px; filter: grayscale(100%);}
+.circle125 {
+    transform: rotate(135deg) translateX(250px);position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);
+    height: 20px;width: 20px;background-color:#ffc966;border-radius: 50%; z-index:1;}
+    .circa125 {
+    transform: rotate(135deg) translateX(250px);position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);
+    height: 20px;width: 20px;background-color:#ffc966;border-radius: 50%; z-index:2;}
+    #centralHOLLCO{width: 300px;  height: 150px;opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); 
+    left: calc(50% - 170px);position: absolute;
+    text-align:center;}
+.logocenterHOLLCO{width:300px; height:150px;}
+
+
+/**************************************AGD POSITIONING************************/
+ .logosix{width:200px; height:80px;}
+ .logo6agdtraffic{transform: rotate(0deg) translateX(250px);position: absolute; left: calc(50% - 780px);
+    top: calc(50% - 50px);height: 30px; width: 30px; filter: grayscale(100%);}
+.circle180 {
+    transform: rotate(180deg) translateX(250px);position: absolute; left: calc(50% - 20px);
+    top: calc(50% - 20px);height: 20px; width: 20px; background-color:#ffc966; 
+    border-radius: 50%; z-index:1;}
+.circa180{
+    transform: rotate(180deg) translateX(250px);position: absolute; left: calc(50% - 20px);
+    top: calc(50% - 20px);height: 20px; width: 20px; background-color:#ffc966; 
+    border-radius: 50%; z-index:2;}
+#centralAGD{width: 300px; height: 150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); 
+    left: calc(50% - 170px);position: absolute;
+    text-align:center;}
+.logocenterAGD{width:300px; height:150px;}
+
+
+
+/**************************************TRAFFIC POSITIONING************************/
+.logoseven{width:200px; height:100px;}
+.logo7trafficgroup{ transform: rotate(0deg) translateX(250px);position: absolute;
+    left: calc(50% - 700px);top: calc(50% - 300px);height: 20px;
+    width: 20px; filter: grayscale(100%);}
+.circle170 {
+    transform: rotate(225deg) translateX(250px);position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);height: 20px;
+    width: 20px;background-color:#ffc966;border-radius: 50%; z-index:1;}
+.circa170 {
+    transform: rotate(225deg) translateX(250px);position: absolute;
+    left: calc(50% - 20px);top: calc(50% - 20px);height: 20px;
+    width: 20px;background-color:#ffc966;border-radius: 50%; z-index:2;}
+
+
+
+/**************************************TOP DOT POSITIONING************************/
+.circle270 {
+    transform: rotate(270deg) translateX(250px);position: absolute;
+    left: calc(50% - 15px);top: calc(50% - 20px);height: 20px;
+    width: 20px;background-color:#ffc966;border-radius: 50%; z-index:1;}
+.circa270 {
+    transform: rotate(270deg) translateX(250px);position: absolute;
+    left: calc(50% - 15px);top: calc(50% - 20px);height: 20px;
+    width: 20px;background-color:#ffc966;border-radius: 50%; z-index:2;}
+
+
+
+/**************************************MIDDLE SECTION POSITIONING************************/
+    #centralTRAFFIC{width: 300px; height: 150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -80px); 
+    left: calc(50% - 170px);position: absolute;
+    text-align:center;}
+.logocenterTRAFFIC{height:150px; width:300px;  }
+.centraltrafficimage{width: 380px; height: 150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -150px); 
+    left: calc(50% - 50px);position: absolute;
+    text-align:center;}
+.second_themiddleimage{width: 380px; height: 150px; opacity: 0; position: absolute; z-index: 0; 
+    top: calc(50% + -150px); 
+    left: calc(50% - 50px);position: absolute;
+    text-align:center;}
+
+.centralbuttonleft{color:white; background-color:orange; border:solid orange; width:130px;  height:30px; }
+#centerbuttonleft:hover{background-color:transparent; color:orange; }
+#centerbuttonright:hover{background-color:orange; color:white; }
+button:focus{ outline-color: #ffe4b3 }
+
+.centralbuttonright{color:orange; background-color:transparent; border:solid orange; width:130px; height:30px;}
+.centralheading{color:white; text-align:center; color: orange;}
+.centraldesc{color: white}
+
+
+
+
+/************************************INDIVIDUAL WHITE DOTS*******************************************/
+/*******BOTTOM********/
+.bottomright1{transform: rotate(57deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 18px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomright2{transform: rotate(62deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 15px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomright3{transform: rotate(67deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 14px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomright4{transform: rotate(72deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 13px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomright5{transform: rotate(77deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 12px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomright6{transform: rotate(82deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*********************/
+.bottomleft1{transform: rotate(100deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomleft2{transform: rotate(105deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomleft3{transform: rotate(110deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomleft4{transform: rotate(115deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomleft5{transform: rotate(120deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.bottomleft6{transform: rotate(125deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*******BOTTOM********/
+/*******TOP********/
+.topleft1{transform: rotate(234deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 7px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topleft2{transform: rotate(239deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 6px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topleft3{transform: rotate(244deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 5px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topleft4{transform: rotate(249deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 5px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topleft5{transform: rotate(254deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 4px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topleft6{transform: rotate(259deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*********************/
+.topright1{transform: rotate(279deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topright2{transform: rotate(284deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topright3{transform: rotate(289deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topright4{transform: rotate(294deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topright5{transform: rotate(299deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.topright6{transform: rotate(304deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 3px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*******TOP********/
+/*******RIGHT********/
+.minicircleleftsidebottom1{transform: rotate(145deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidebottom2{transform: rotate(150deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidebottom3{transform: rotate(155deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidebottom4{transform: rotate(160deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidebottom5{transform: rotate(165deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidebottom6{transform: rotate(170deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*********************/
+.minicircleleftsidetop1{transform: rotate(189deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidetop2{transform: rotate(194deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidetop3{transform: rotate(199deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidetop4{transform: rotate(204deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.minicircleleftsidetop5{transform: rotate(209deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%; background-color:grey;}
+.minicircleleftsidetop6{transform: rotate(214deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 11px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*******RIGHT********/
+/*******LEFT********/
+.rightsidebottom1{transform: rotate(14deg) translateX(250px);
+    position: absolute; left: calc(50% - 11px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidebottom2{transform: rotate(19deg) translateX(250px);
+    position: absolute; left: calc(50% - 10px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%; background-color:grey;}
+.rightsidebottom3{transform: rotate(24deg) translateX(250px);
+    position: absolute; left: calc(50% - 9px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidebottom4{transform: rotate(29deg) translateX(250px);
+    position: absolute; left: calc(50% - 8px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidebottom5{transform: rotate(34deg) translateX(250px);
+    position: absolute; left: calc(50% - 7px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidebottom6{transform: rotate(39deg) translateX(250px);
+    position: absolute; left: calc(50% - 5px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*********************/
+.rightsidetop1{transform: rotate(355deg) translateX(250px);
+    position: absolute; left: calc(50% - 15px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidetop2{transform: rotate(350deg) translateX(250px);
+    position: absolute; left: calc(50% - 15px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidetop3{transform: rotate(345deg) translateX(250px);
+    position: absolute; left: calc(50% - 16px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidetop4{transform: rotate(340deg) translateX(250px);
+    position: absolute; left: calc(50% - 16px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidetop5{transform: rotate(335deg) translateX(250px);
+    position: absolute; left: calc(50% - 17px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+.rightsidetop6{transform: rotate(330deg) translateX(250px);
+    position: absolute; left: calc(50% - 20px);top: calc(50% - 25px);
+    height: 6px; width: 6px; border-radius: 50%;background-color:grey;}
+/*******LEFT********/
+/************************************INDIVIDUAL WHITE DOTS*******************************************/
+
+
+/*******************LOGOS CLICKER ANCHOR PONITS************************/
+.anchor_prime{background-color:blue; width:10px; height:10px;  z-index:1; position: absolute;
+    left: calc(50% - -500px);top: calc(50% - 150px);}
+.anchor_one{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -230px); z-index: 1;}
+.anchor_two{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -600px); z-index: 1;}
+.anchor_three{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -950px); z-index: 1;}
+.anchor_four{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -1350px); z-index: 1;}
+.anchor_five{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -1700px); z-index: 1;}
+.anchor_six{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -2100px); z-index: 1;}
+.anchor_seven{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -2450px); z-index: 1;}
+.second_anchor_prime{background-color:blue; width:10px; height:10px; position: absolute;
+    left: calc(50% - -500px); top: calc(50% - -2650px); z-index: 1;}
+/*******************CLICK ON LOGOS ANCHOR PONITS************************/
+
